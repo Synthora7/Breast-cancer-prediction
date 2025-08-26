@@ -1,6 +1,6 @@
 import streamlit as st
 import joblib 
-import base64
+
 
 
 
@@ -57,4 +57,5 @@ st.sidebar.markdown('- Uniformity of Cell Size')
 st.sidebar.markdown('- Uniformity of Cell Shape')
 st.sidebar.markdown('- Bare Nuclei')
 st.sidebar.markdown('- Bland Chromatin')
+
 st.sidebar.markdown('- Normal Nucleoli')
