@@ -41,7 +41,7 @@ if st.button("Predict"):
     # Result print karo
     if pred == 2:
         st.success("Prediction: Benign (Non-cancerous)")
-        st.image("Benign.jpg")
+        st.image("https://github.com/Synthora7/Breast-cancer-prediction/blob/main/Benign.JPG")
     else:
         st.warning("Prediction: Malignant (Cancerous)")
         st.image("Malignant.jpg")
@@ -59,3 +59,4 @@ st.sidebar.markdown('- Bare Nuclei')
 st.sidebar.markdown('- Bland Chromatin')
 
 st.sidebar.markdown('- Normal Nucleoli')
+
