@@ -44,7 +44,7 @@ if st.button("Predict"):
         st.image("https://raw.githubusercontent.com/Synthora7/Breast-cancer-prediction/main/Benign.JPG")
     else:
         st.warning("Prediction: Malignant (Cancerous)")
-        st.image("Malignant.jpg")
+        st.image("https://raw.githubusercontent.com/Synthora7/Breast-cancer-prediction/main/Malignant.JPG")
 
 
 st.sidebar.markdown("### ℹ️ About")
@@ -59,6 +59,7 @@ st.sidebar.markdown('- Bare Nuclei')
 st.sidebar.markdown('- Bland Chromatin')
 
 st.sidebar.markdown('- Normal Nucleoli')
+
 
 
 
